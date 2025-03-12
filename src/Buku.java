@@ -1,12 +1,12 @@
 public class Buku extends Koleksi{
 
-    String penulis;
+    private String penulis;
 
     Buku () {
 
     }
 
-    Buku (String judul, String penerbit, String penulis, int tahun) {
+    protected Buku (String judul, String penerbit, String penulis, int tahun) {
         super(judul, penerbit, tahun);
         this.penulis = penulis;
     }

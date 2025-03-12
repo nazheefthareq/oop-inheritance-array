@@ -1,6 +1,6 @@
 public class Majalah extends Koleksi{
     
-    String edisi;
+    private String edisi;
 
     Majalah () {
 

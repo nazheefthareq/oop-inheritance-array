@@ -1,6 +1,6 @@
 public class Skripsi extends Buku{
     
-    int npm;
+    private int npm;
 
     Skripsi () {
 
